@@ -1,4 +1,4 @@
-package com.ongkustore;
+package com.ongakustore;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
