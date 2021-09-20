@@ -44,7 +44,11 @@ public class Hello extends HttpServlet {
 <<<<<<< HEAD
 //BALBLABLA
 //MYREQUESTeeasdasdsas
+<<<<<<< HEAD
 //3req
 =======
 //BALBLABLA
 >>>>>>> parent of 6c5cae7 (Merge branch 'master' of https://github.com/stargazer39/Ongaku-Store)
+=======
+//3req
+>>>>>>> parent of 3ec50ba (Update Hello.java)
