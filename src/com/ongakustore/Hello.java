@@ -42,7 +42,12 @@ public class Hello extends HttpServlet {
 
 }
 //BALBLABLA
+//<<<<<<< master
+//MYREQUESTeeasdasdsa
+//grfdgdgd
+//=======
 //MYREQUESTeeasdasdsas
 //3req
 //req
 //checking again. dont mind :))
+//>>>>>>> master
