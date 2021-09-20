@@ -41,6 +41,10 @@ public class Hello extends HttpServlet {
 	}
 
 }
+<<<<<<< HEAD
 //BALBLABLA
 //MYREQUESTeeasdasdsas
 //3req
+=======
+//BALBLABLA
+>>>>>>> parent of 6c5cae7 (Merge branch 'master' of https://github.com/stargazer39/Ongaku-Store)
