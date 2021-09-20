@@ -42,7 +42,6 @@ public class Hello extends HttpServlet {
 
 }
 //BALBLABLA
-<<<<<<< HEAD
 //<<<<<<< master
 //MYREQUESTeeasdasdsa
 //grfdgdgd
@@ -52,6 +51,3 @@ public class Hello extends HttpServlet {
 //req
 //checking again. dont mind :))
 //>>>>>>> master
-=======
-//MYREQUESTeeasdasdsas
->>>>>>> parent of afe9217 (aaaaaa)
