@@ -42,5 +42,4 @@ public class Hello extends HttpServlet {
 
 }
 //BALBLABLA
-//MYREQUESTeeasdasdsa
-//grfdgdgd
+//MYREQUESTeeasdasdsas
