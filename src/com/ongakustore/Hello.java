@@ -13,7 +13,7 @@ import java.sql.Connection;
 @WebServlet("/Hello")
 public class Hello extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-    
+
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -29,7 +29,7 @@ public class Hello extends HttpServlet {
 		// TODO Auto-generated method stub
 		Connection conn = SqlConnect.connect();
 		response.getWriter().append("Served at: ").append(request.getContextPath()).append(" Bruh");
-		
+
 	}
 
 	/**
@@ -42,12 +42,4 @@ public class Hello extends HttpServlet {
 
 }
 //BALBLABLA
-//<<<<<<< master
-//MYREQUESTeeasdasdsa
-//grfdgdgd
-//=======
 //MYREQUESTeeasdasdsas
-//3req
-//req
-//checking again. dont mind :))
-//>>>>>>> master
