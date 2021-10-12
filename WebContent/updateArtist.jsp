@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="java.sql.*,com.ongakustore.admin.SqlConnect,com.ongakustore.admin.Artist" %>
+<%@ page import="java.sql.*,com.ongakustore.SqlConnect,com.ongakustore.admin.Artist" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
 	Artist artist = new Artist();

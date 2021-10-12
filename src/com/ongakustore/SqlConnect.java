@@ -1,4 +1,4 @@
-package com.ongakustore.admin;
+package com.ongakustore;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
