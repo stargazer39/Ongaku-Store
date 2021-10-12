@@ -44,6 +44,3 @@ public class Hello extends HttpServlet {
 	}
 
 }
-//BALBLABLA
-//MYREQUESTeeasdasdsas
-//ok got it working lol
