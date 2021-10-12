@@ -1,3 +1,5 @@
 /build/
 WebContent/WEB-INF/lib/*.jar
 .classpath
+.DS_Store
+/bin/
