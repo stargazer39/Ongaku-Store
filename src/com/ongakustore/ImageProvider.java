@@ -19,13 +19,13 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class GetImagesController
  */
 @WebServlet("/getImage")
-public class GetImagesController extends HttpServlet {
+public class ImageProvider extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public GetImagesController() {
+    public ImageProvider() {
         super();
         // TODO Auto-generated constructor stub
     }
