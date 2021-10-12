@@ -1,4 +1,4 @@
-package com.ongakustore;
+package com.ongakustore.admin;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="com.ongakustore.OngakuUser,com.ongakustore.JSPHelper" %>
+<%@ page import="com.ongakustore.admin.OngakuUser,com.ongakustore.admin.JSPHelper" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
 	boolean authorized = JSPHelper.isAuthorized(session);

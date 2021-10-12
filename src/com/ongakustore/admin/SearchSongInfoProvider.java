@@ -1,4 +1,4 @@
-package com.ongakustore;
+package com.ongakustore.admin;
 
 import java.io.IOException;
 import java.io.PrintWriter;

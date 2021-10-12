@@ -1,4 +1,4 @@
-package com.ongakustore;
+package com.ongakustore.admin;
 
 public class UserNotFoundException extends Exception {
 	/**

@@ -1,4 +1,4 @@
-package com.ongakustore;
+package com.ongakustore.admin;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
