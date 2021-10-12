@@ -1,0 +1,75 @@
+body {
+	background-color: transparent !important;
+}
+.logo-wrapper {
+    width: 20vh;
+    height: auto;
+}
+.logo-big {
+	height: 350px;
+}
+.feature-card {
+	height: 30vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff87;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.feature-card > .card-image {
+	width: 350px;
+	height: 100%;
+}
+.card-content {
+	width: 70%;
+	height: 100%;
+	text-align: center;
+	padding: 25px;
+}
+.artist-elem {
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+    flex-shrink: 0;
+    position: relative;
+}
+.artist-elem img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+.artist-elem div {
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+	background-color: black;
+	color: white;
+	padding: 8px;
+	width: 100%;
+}
+.song-container {
+    width: 100%;
+    height: 100%;
+}
+.song-wrapper {
+    overflow: hidden;
+}
+
+#bgplayer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -99;
+	transform: scale(1.67);
+	filter: blur(10px) brightness(0.6);
+}
+
+/* Bottom bar */
+.bottom-links table {
+	width: 100%;
+}

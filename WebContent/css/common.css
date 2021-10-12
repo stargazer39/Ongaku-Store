@@ -1,0 +1,29 @@
+body,html{
+	background-color: pink;
+}
+.img-contain {
+    height: 100%;
+    object-fit: contain;
+}
+.img-fill {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.topbar {
+    height: 80px;
+    color:white;
+    background-color: #000000e6;
+    box-shadow: 0px 0px 9px 0px white;
+    margin: 5px;
+    position: sticky;
+    top: 0;
+    border-radius: 6px;
+}
+.spacer {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.white-text {
+	color: white;
+}
