@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 
 public class SqlConnect {
 	public static Connection conn = null;
-	public static String database = "hello";
+	public static String database = "Ongaku";
 	
 	public static Connection connect() throws FileNotFoundException {
 		try {
