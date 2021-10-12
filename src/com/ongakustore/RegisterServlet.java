@@ -71,7 +71,7 @@ public class RegisterServlet extends HttpServlet {
 			System.out.println(e.toString());
 			request.setAttribute("success", false);
 		}
-		RequestDispatcher rd = request.getRequestDispatcher("redirect.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("n_redirect.jsp");
 		rd.forward(request,response);
 	}
 
