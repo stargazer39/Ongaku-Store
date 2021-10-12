@@ -18,7 +18,7 @@
       <title>User Profile</title>
       <!-- Bootstrap CSS -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
+      <link href="css/sstyle.css" rel="stylesheet">
       <link href="css/petals.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
       <!-- Javascript-->
