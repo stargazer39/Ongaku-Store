@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body{
+	background-image: url("../images/background.png");
+}
+
+/*.topbar {
+    height: 80px;
+    color:white;
+    background-color: black;
+    box-shadow: 0px 0px 9px 0px white;
+    margin: 5px;
+    position: sticky;
+    top: 0;
+    border-radius: 6px;
+}
+/*.spacer {
+    flex-grow: 1;
+    flex-shrink: 1;
+}*/
+/*.img-contain {
+    height: 100%;
+    object-fit: contain;
+}*/
+
+
+.artist-table table thead tr{
+	background-color: #009879;
+	color: #ffffff;
+	text-align: left;
+}
+
+.xop-section{
+	font-weight: 400;
+	font-size:1.2rem;
+	line-height:1.3;
+	margin: 0 0 2em;
+}
+
+.project{
+	display:block;
+	width:100%;
+	text-decoration:none;
+	margin:lem 0;
+	cursor: pointer;
+	
+}
+.figure{
+	margin: 0;
+	padding: 0;
+}
+
+.project figure img{
+	width: 100%;
+	display: block;
+	object-fit: cover;
+	height: 300px;
+}
+
+.project figcaption{
+	padding: lem;
+	background: pink;
+	color: black;
+}
+
+.project h3{
+	color: black;
+	margin: 0;
+}
+
+.cta{
+	margin: .5em 0;
+}
+
+.xop-wrapper{
+		max-width:960px;
+		margin: 0 auto;
+	}
+.xop-container{
+		display:grid;
+		grid-template-columns:
+		repeat(3,1fr);
+		grid-gap: 1em;
+	}
+.project{
+	width: 100%;
+	height: 300px;
+	text-decoration: none;
+	margin: 0;
+	
+}
+.project figure{
+	position: relative;
+	overflow: hidden;
+}
+
+.project figure img{
+	position: relative;
+	z-index: 999;
+	transition: transform 0.4s;
+}
+.project figure:hover img{
+	transform: translateY(-120px);
+}
+.project figcaption{
+	position:absolute;
+	left: 0;
+	bottom: 0;
+	padding: 20px;
+	height: 90px;
+	width: 100%;
+}
+
+.content-table {
+	border-collapse: collapse;
+	margin: auto;
+	margin-bottom:10px;
+	min-width: 600px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.content-table thead tr {
+background-color: #FF4162;
+color: white;
+text-align: left;
+font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+	padding: 12px 15px;
+}
+
+.content-table tbody tr{
+	background-color: #f3f3f3;
+	border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:last-of-type{
+	border-bottom: 2px solid #FF4162;
+}
+
+
