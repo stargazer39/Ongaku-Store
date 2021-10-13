@@ -37,9 +37,9 @@
       <div class="topbar">
          <img class="img-contain p-3" style="height: 60px" src="images/logo_mini.png">
          <div class="spacer"></div>
-         <div class="mx-3">Home</div>
-         <div class="mx-3">Sign in</div>
-         <div class="mx-3">Register</div>
+         <div class="mx-3"><a href="homepage.jsp">Home</a></div>
+		<div class="mx-3"><a href="Login.jsp">Sign in</a></div>
+		<div class="mx-3"><a href="registration.jsp">Register</a></div>
       </div>
       <!-- End of TopBar -->
       <div class="main" style="padding-top: 50px">

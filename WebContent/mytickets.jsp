@@ -24,9 +24,9 @@
       	<div class="topbar d-flex flex-row align-items-center">
 		<img class="img-contain p-3" src="img/logo_mini.png">
 		<div class="spacer"></div>
-		<div class="mx-3">Home</div>
-		<div class="mx-3">Sign in</div>
-		<div class="mx-3">Register</div>
+		<div class="mx-3"><a href="homepage.jsp">Home</a></div>
+		<div class="mx-3"><a href="Login.jsp">Sign in</a></div>
+		<div class="mx-3"><a href="registration.jsp">Register</a></div>
 	</div>
 <%
 		try{

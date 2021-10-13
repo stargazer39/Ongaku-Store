@@ -26,9 +26,9 @@
 	<div class="topbar d-flex flex-row align-items-center">
 		<img class="img-contain p-3" src="img/logo_mini.png">
 		<div class="spacer"></div>
-		<div class="mx-3">Home</div>
-		<div class="mx-3">Sign in</div>
-		<div class="mx-3">Register</div>
+		<div class="mx-3"><a href="homepage.jsp">Home</a></div>
+		<div class="mx-3"><a href="Login.jsp">Sign in</a></div>
+		<div class="mx-3"><a href="registration.jsp">Register</a></div>
 	</div>
 	<% 
 	// TODO - Error handling
@@ -64,12 +64,14 @@
 					</div>
 				</c:forEach>
 			</div>
+		</div>
+		<div class="container">
 			<c:forEach items="${topArtists}" var="artist">
-				<div class="feature-card my-4">
+				<div class="feature-card my-5">
 					<div class="card-image">
 						<img src="/OngakuStore/getImage?type=artist&id=${artist.getArtistId()}" class="img-fill">
 					</div>
-					<div class="card-content">${artist.getArtistName()}</div>
+					<div class="card-content">${artist.getArtistName()} <br><br> ${artist.getArtistDescription()}</div>
 				</div>
 			</c:forEach>
 		</div>
