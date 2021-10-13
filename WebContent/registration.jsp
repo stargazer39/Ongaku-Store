@@ -48,9 +48,9 @@
             <div class="container">
                <center>
                   <div class="header1">
-                     <h2 class="form-title">Sign up</h2>
+                     <h2 class="form-title" style="color: #da4c82 !important; font-size: 60px;">Sign up</h2>
                   </div>
-               </center>
+               </center><hr style="border: 1px solid pink;">
                <div class="signup-content" style="padding-left: 150px">
                   <div class="signup-form">
                      <form action="RegisterServlet" method="POST" class="register-form" id="register-form" name="register-form" onsubmit="return validateForm() ">
@@ -74,7 +74,7 @@
                         </div>
                         <div class="form-group">
                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                           <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service" style="font-size: 23px !important;">Terms of service</a></label>
+                           <label for="agree-term" class="label-agree-term" style="    font-size: 21px !important; color: #da4c82;"><span><span></span></span>I agree all statements in  <a href="#" class="term-service" style="font-size: 21px !important; color="#FF69B4">Terms of service</a></label>
                         </div>
                         <div class="form-group form-button">
                            <center> <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/></center>

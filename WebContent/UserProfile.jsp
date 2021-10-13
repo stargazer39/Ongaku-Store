@@ -44,11 +44,12 @@
          margin: 8px 0;
          border: none;
          cursor: pointer;
-         width: 100%;
+         width: 20%;
          opacity: 0.9;
          }
-         bttn:hover {
-         opacity:1;
+         .bttn:hover {
+         
+  		 color: white;
          }
          /* Float cancel and delete buttons and add an equal width */
          .cancelbtn, .deletebtn {
@@ -199,7 +200,7 @@
          </div>
          <div class="grid-container">
             <div class="grid-item item1">
-               <img src="GetImageServlet?userId=<%=userId%>" width="300px" class="float-left"/>
+               <img src="GetImageServlet?userId=<%=userId%>" width="300px" class="float-left" style="border-radius: 8px;"/>
             </div>
             <div class="grid-item item2">
                <h3><b>Profile</b></h3>
@@ -250,12 +251,20 @@
             ResultSet rs2 = ps2.executeQuery();	
             
             if(rs2.next()==false){
-            	out.println("no records in the table!!");
-            }
+            	%><table class="content-table">
+                <thead>
+                   <tr>
+                      <th>Song Name</th>
+                      <th>Artist Name </th>
+                      <th></th>
+                   </tr>
+                </thead>
+                </table>
+            <% }
             else
             {%>
-         <h2>PurchasedSongs </h2>
-         <hr>
+         <h2><b>Purchased Songs</b> </h2>
+         <hr style="border: 1px solid #ff4162;">
          <table class="content-table">
             <thead>
                <tr>

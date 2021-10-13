@@ -6,7 +6,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <title>Insert title here</title>
+        <title>Edit Profile</title>
         <!-- Font Icon -->
         <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
         <!-- Main css -->
@@ -63,10 +63,10 @@
             <section class="signup">
                 <div class="container" style="width: 1100px">
                     <div class="signup-content">
-                        <div style="background-color: pink; background-size:cover;" class="jumbotron">
+                        <div style="background-color: pink; background-size:cover; box-shadow: 0 0 20px rgba(0,0,0,0.15);" class="jumbotron">
                             <center>
                                 <div class="header1">
-                                    <h2 class="form-title">Edit Profile</h2>
+                                    <h2 class="form-title" style="font-size: 3rem;">Edit Profile</h2>
                                 </div>
                             </center>
                             <div class="signup-image">
