@@ -75,7 +75,7 @@ public class LoginServlet extends HttpServlet {
 			e.printStackTrace();
 			System.out.println(e.toString());
 			request.setAttribute("success", false);
-			RequestDispatcher rd = request.getRequestDispatcher("redirect.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("v_redirect.jsp");
 			rd.forward(request,response);
 		}
 		
