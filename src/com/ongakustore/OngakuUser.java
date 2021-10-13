@@ -10,6 +10,7 @@ public class OngakuUser {
 	private String country;
 	private String dob;
 	private byte[] picture; 
+	//private static OngakuUser ouser;
 	
 	public String getfname() {
 		return fname;
@@ -66,4 +67,10 @@ public class OngakuUser {
 	public void setPicture(byte[] picture) {
 		this.picture = picture;
 	}
+	//public static OngakuUser getouser() {
+	//	if(ouser == null) {
+	//		return new OngakuUser();
+	//	}
+	//	return ouser;
+	//}
 }

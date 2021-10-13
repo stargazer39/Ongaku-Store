@@ -1,4 +1,4 @@
-package com.ongakustore;
+	package com.ongakustore;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -55,7 +55,7 @@ public class DeleteAccountServlet extends HttpServlet {
 			int i = ps.executeUpdate(); 
 			if(i <= 0) throw new Exception("Sql Error");
 			request.setAttribute("success", true);
-			request.setAttribute("redirto", "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+			request.setAttribute("redirto", "homepage.jsp");
 			
 		}catch(Exception e) {
 			System.out.println(e.toString());

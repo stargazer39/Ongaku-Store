@@ -38,7 +38,8 @@ body{
   left-padding: 100px;
 }
 .jumbotron{
-	background-image:url(images/bg.jpg);
+	/*background-image:url(images/bg.jpg);*/
+	box-shadow: 0 0 20px rgba(0,0,0,0.15);
 	
 }
 
