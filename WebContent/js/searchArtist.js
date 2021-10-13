@@ -21,7 +21,10 @@ function fillResults(parentElem, data) {
 						<input type="hidden" name="artistId" value="${d.artistId}"> 
 						<input type="submit" value="Add Song">
 					</form>
-						<button>Delete</button>
+					<form action="deleteArtist" method="POST"> 
+						<input type="hidden" name="artistId" value="${d.artistId}"> 
+						<input type="submit" value="Delete">
+					</form>
 					<form action="updateArtist.jsp">
 						<input type="hidden" name="artistId" value="${d.artistId}"> 
 						<input type="submit" value="Update">
