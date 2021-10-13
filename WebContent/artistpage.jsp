@@ -28,7 +28,7 @@
 	    </div>
 		<%
 		int artistID= Integer.parseInt(request.getParameter("artistid"));
-		int userID= 2017;
+		int userID= 2029;
 		String sql= "select * from Artist where artistID=" + artistID;
 		String sql2= "select * from Music where artistID=" + artistID;
 		String sql3= "select * from artist_comments where artistID=" + artistID;

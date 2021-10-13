@@ -47,6 +47,7 @@
         <div class="mx-3"><a href="homepage.jsp">Home</a></div>
 		<div class="mx-3"><a href="Login.jsp">Sign in</a></div>
 		<div class="mx-3"><a href="registration.jsp">Register</a></div>
+		<div class="mx-3"><a href="artistmenu.jsp">All Artists</a></div>
     </div>
 	<section class="xop-section">
 		<div	class="xop-container">
