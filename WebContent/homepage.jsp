@@ -59,7 +59,9 @@
 			<div class="d-flex flex-row mt-4 justify-content-center">
 				<c:forEach items="${topArtists}" var="artist">
 					<div class="artist-elem">
-						<img src="/OngakuStore/getImage?type=artist&id=${artist.getArtistId()}">
+						<a href="artistpage.jsp?artistid=${artist.getArtistId()}">
+							<img src="/OngakuStore/getImage?type=artist&id=${artist.getArtistId()}">
+						</a>
 						<div>${artist.getArtistName()}</div>
 					</div>
 				</c:forEach>
@@ -71,7 +73,7 @@
 					<div class="card-image">
 						<img src="/OngakuStore/getImage?type=artist&id=${artist.getArtistId()}" class="img-fill">
 					</div>
-					<div class="card-content">${artist.getArtistName()} <br><br> ${artist.getArtistDescription()}</div>
+					<div class="card-content"><a href="artistpage.jsp?artistid=${artist.getArtistId()}">${artist.getArtistName()}</a> <br><br> ${artist.getArtistDescription()}</div>
 				</div>
 			</c:forEach>
 		</div>
