@@ -18,10 +18,13 @@ function fillResults(parentElem, data) {
 					<div>${d.title}</div>
 					<div class="spacer"></div>
 					<form action="updateSong.jsp">
-						<input type="hidden" name="songid" value="${d.songId}"> 
+						<input type="hidden" name="songId" value="${d.songId}"> 
 						<input type="submit" value="Update">
 					</form>
-					<button>Delete</button>
+					<form action="deleteSong" method="POST">
+						<input type="hidden" name="songId" value="${d.songId}"> 
+						<input type="submit" value="Delete">
+					</form>
 				</div>
 			`));
 		}	
